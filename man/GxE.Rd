@@ -37,8 +37,9 @@ for testing the presence of a GxE interaction.
 }
 \references{
 \itemize{
-  \item Lau, M., Schikowski, T. & Schwender, H. (2022).
-  Efficient gene-environment interaction testing through
-  bootstrap aggregating. To be submitted.
+  \item Lau, M., Kress, S., Schikowski, T. & Schwender, H. (2023).
+  Efficient gene--environment interaction testing through
+  bootstrap aggregating. Scientific Reports 13:937.
+  \doi{https://doi.org/10.1038/s41598-023-28172-4}
 }
 }

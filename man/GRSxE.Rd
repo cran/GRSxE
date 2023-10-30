@@ -100,7 +100,8 @@ maf <- 0.25
 n.snps <- 10
 N <- 500
 X <- matrix(sample(0:2, n.snps * N, replace = TRUE,
-                   prob = c((1-maf)^2, 1-(1-maf)^2-maf^2, maf^2)), ncol = n.snps)
+                   prob = c((1-maf)^2, 1-(1-maf)^2-maf^2, maf^2)),
+            ncol = n.snps)
 colnames(X) <- paste("SNP", 1:n.snps, sep="")
 E <- rnorm(N, 20, 10)
 E[E < 0] <- 0
@@ -121,9 +122,10 @@ summary(GRSxE(X, y.no.GxE, E))
 }
 \references{
 \itemize{
-  \item Lau, M., Schikowski, T. & Schwender, H. (2022).
-  Efficient gene-environment interaction testing through
-  bootstrap aggregating. To be submitted.
+  \item Lau, M., Kress, S., Schikowski, T. & Schwender, H. (2023).
+  Efficient gene--environment interaction testing through
+  bootstrap aggregating. Scientific Reports 13:937.
+  \doi{https://doi.org/10.1038/s41598-023-28172-4}
   \item Lau, M., Wigmann C., Kress S., Schikowski, T. & Schwender, H. (2022).
   Evaluation of tree-based statistical learning methods for constructing
   genetic risk scores. BMC Bioinformatics 23:97.

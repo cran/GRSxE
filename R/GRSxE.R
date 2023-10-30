@@ -63,9 +63,10 @@
 #' @example examples/example.R
 #' @references
 #' \itemize{
-#'   \item Lau, M., Schikowski, T. & Schwender, H. (2022).
-#'   Efficient gene-environment interaction testing through
-#'   bootstrap aggregating. To be submitted.
+#'   \item Lau, M., Kress, S., Schikowski, T. & Schwender, H. (2023).
+#'   Efficient gene--environment interaction testing through
+#'   bootstrap aggregating. Scientific Reports 13:937.
+#'   \doi{https://doi.org/10.1038/s41598-023-28172-4}
 #'   \item Lau, M., Wigmann C., Kress S., Schikowski, T. & Schwender, H. (2022).
 #'   Evaluation of tree-based statistical learning methods for constructing
 #'   genetic risk scores. BMC Bioinformatics 23:97.
@@ -184,9 +185,10 @@ GRSxE <- function(X, y, E, C = NULL,
 #'   describes the GxE term.
 #' @references
 #' \itemize{
-#'   \item Lau, M., Schikowski, T. & Schwender, H. (2022).
-#'   Efficient gene-environment interaction testing through
-#'   bootstrap aggregating. To be submitted.
+#'   \item Lau, M., Kress, S., Schikowski, T. & Schwender, H. (2023).
+#'   Efficient gene--environment interaction testing through
+#'   bootstrap aggregating. Scientific Reports 13:937.
+#'   \doi{https://doi.org/10.1038/s41598-023-28172-4}
 #' }
 #'
 #' @importFrom stats gaussian binomial glm
